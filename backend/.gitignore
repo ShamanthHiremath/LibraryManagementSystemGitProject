@@ -1,2 +1,17 @@
+<<<<<<< HEAD
 /node_modules
 .env
+=======
+.env
+node_modules
+*/.env
+*/node_modules
+*/.env.local
+*/.env.development
+*/.env.test
+*/.env.production
+*/.env.local
+*/.env.development.local
+*/.env.test.local
+*/.env.production.local
+>>>>>>> origin/sanchit

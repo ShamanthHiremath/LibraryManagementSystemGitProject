@@ -1,15 +1,22 @@
 {
   "name": "backend",
   "version": "1.0.0",
+<<<<<<< HEAD
   "description": "",
   "main": "server.js",
   "type": "module",
   "scripts": {
     "start": "node server.js"
+=======
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+>>>>>>> origin/sanchit
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+<<<<<<< HEAD
   "dependencies": {
     "bcrypt": "^5.0.1",
     "cors": "^2.8.5",
@@ -22,4 +29,7 @@
   "devDependencies": {
     "nodemon": "^2.0.12"
   }
+=======
+  "description": ""
+>>>>>>> origin/sanchit
 }
