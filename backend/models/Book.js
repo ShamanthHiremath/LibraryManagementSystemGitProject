@@ -12,7 +12,7 @@ const BookSchema = new mongoose.Schema({
     author:{
         type:String,
         require:true
-    }, 
+    },
     language:{
         type:String,
         default:""
@@ -29,9 +29,9 @@ const BookSchema = new mongoose.Schema({
         type:String,
         default:"Available"
     },
-    categories:[{ 
-        type: mongoose.Types.ObjectId, 
-        ref: "BookCategory" 
+    categories:[{
+        type: mongoose.Types.ObjectId,
+        ref: "BookCategory"
     }],
     transactions:[{
         type:mongoose.Types.ObjectId,
